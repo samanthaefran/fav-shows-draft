@@ -5,7 +5,8 @@ const mongoose = require('mongoose');
 const showSchema = new mongoose.Schema({
   title: String,
   yearReleased: String,
-  starring: String
+  starring: String,
+  rating: Number,
 })
 
 // module.exports will allow us to 'import' this to our server.js file. all of the routes we created will work with this! 
